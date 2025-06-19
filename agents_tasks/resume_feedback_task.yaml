@@ -1,0 +1,11 @@
+resume_feedback_task:
+  description: >
+      Give feedback on the resume to make it stand out for recruiters. 
+      Review every section, inlcuding the summary, work experience, skills, and education. Suggest to add relevant sections if they are missing.  
+      Also give an overall score to the resume out of 10.  
+      This is the resume: {resume}
+
+  expected_output: >
+    - The overall score of the resume followed by the feedback in bullet points.
+
+  agent: resume_feedback

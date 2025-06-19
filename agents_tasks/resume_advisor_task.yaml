@@ -1,0 +1,13 @@
+resume_advisor_task:
+  description: >
+    Rewrite the resume based on the feedback to make it stand out for recruiters. 
+    You can adjust and enhance the resume but don't make up facts. 
+    Review and update every section, including the summary, work experience, skills, and education to better reflect the candidates abilities. 
+    This is the resume: {resume}
+  
+  expected_output: >
+    Resume in markdown format that effectively highlights the candidate's qualifications and experiences
+  
+  context: resume_feedback_task
+  
+  agent: resume_advisor
